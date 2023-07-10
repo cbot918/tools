@@ -1,19 +1,15 @@
 # TOOLS
 some tools for convenient develope
 
-# Gob
+# Notice
+1. linux system (or unix like system)
+2. 需要點shell script的基礎不然可能會卡
 
-build tool for quick develope project
+# mysql.sh
+mysql quick command with terminal
 
-[gob](https://github.com/cbot918/gob)
+# psql.sh
+psql quick command with terminal
 
-### Quick Start
-- install
-```bash
-bash <(curl -s https://raw.githubusercontent.com/cbot918/gob/main/installer/install_linux.sh)
-```
-- run
-```
-gob
-```
-will create a testp repo and files 
+# find_file_github
+find file in github (只找第一層)
