@@ -3,9 +3,11 @@ arr=(liby cbot918 dbmg sshy template qchat eztool temp-db-bulk infra-auto tools 
 
 github=cbot918
 
+target=db.sh
+
 for i in "${arr[@]}"
 do
-  if curl -s "https://github.com/$github/$i" | grep -w 'db.sh' ;then
+  if curl -s "https://github.com/$github/$i" | grep -w $target ;then
     echo "got it"
     echo $i
   fi
